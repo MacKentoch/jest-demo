@@ -1,3 +1,5 @@
+'use strict';
+
 const { callbackExample } = require('./callbackExample');
 
 describe('callbackExample', () => {

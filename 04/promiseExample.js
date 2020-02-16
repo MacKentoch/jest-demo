@@ -1,3 +1,5 @@
+'use strict';
+
 exports.fakeFetchDataSuccessfull = () => {
   return Promise.resolve({ data: 'some data' });
 };

@@ -1,3 +1,5 @@
+'use strict';
+
 const { sortThisArray } = require('./sortFunction');
 
 describe('', () => {
