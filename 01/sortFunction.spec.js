@@ -1,6 +1,6 @@
 const { sortThisArray } = require('./sortFunction');
 
-describe('', () => {
+describe('sortFunction', () => {
   test('Should sort an array of number', () => {
     const unOrderedArray = [65, 0, 1, 32, 98];
 

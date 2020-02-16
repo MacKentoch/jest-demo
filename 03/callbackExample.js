@@ -3,7 +3,7 @@ function fakeHeavyProccess() {
 }
 
 function callbackExample(callbackFct = () => {}) {
-  // some heavy or async process (just a fake here we will talk about async and timer later):
+  // some heavy or async process (just a fake here since we will talk about async and timer later):
   const heavyProcessSuccessFull = fakeHeavyProccess();
 
   if (heavyProcessSuccessFull) {

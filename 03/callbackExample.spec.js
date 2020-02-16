@@ -1,6 +1,6 @@
 const { callbackExample } = require('./callbackExample');
 
-describe('', () => {
+describe('callbackExample', () => {
   it('Should call callback and return true', (done = () => {}) => {
     function callback(isSuccessfull) {
       expect(isSuccessfull).toBe(true);
